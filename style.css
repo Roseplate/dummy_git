@@ -1,0 +1,17 @@
+body { 
+    background-color: cadetblue; 
+}
+
+p {
+    color: darkmagenta;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around; 
+  align-items: center;
+  flex-wrap: wrap; 
+  gap: 1rem;
+}
