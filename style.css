@@ -1,5 +1,10 @@
+
+:root {
+    --background-var-col: cadetblue;
+}
+
 body { 
-    background-color: cadetblue; 
+    background-color: var(--background-var-col); 
 }
 
 p {
